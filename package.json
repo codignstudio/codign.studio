@@ -1,0 +1,25 @@
+{
+  "name": "codignstudio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codignstudio/codignstudio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codignstudio/codignstudio/issues"
+  },
+  "homepage": "https://github.com/codignstudio/codignstudio#readme",
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "live-server": "^1.2.1",
+    "postcss": "^8.2.1",
+    "tailwindcss": "^2.0.1"
+  }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodignStudio | Software House</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+  <header class="fixed top-0 w-full lg:z-50 px-5 mx-auto bg-white py-6">
+    <div class="flex flex-row max-w-8xl md:justify-between m-auto">
+      <button class="px-2 mr-2 focus:outline-none md:hidden"><i data-feather="menu"></i></button>
+      <a href="/" class="text-xl focus:outline-none font-poppins font-bold text-dark">Codign<span class="text-primary">Studio</span></a>
+      <div class="flex flex-row space-x-12 font-semibold font-arial text-gray-300 ">
+        <a href="#home" class="text-primary transition-all duration-300">Home</a>
+        <a href="#service" class="hover:text-primary transition-all duration-300">Service</a>
+        <a href="#ourwork" class="hover:text-primary transition-all duration-300">Our Work</a>
+        <a href="#about" class="hover:text-primary transition-all duration-300">About</a>
+      </div>
+    </div>
+    
+  </header>
+  <section id="home" class="flex relative flex-row w-full max-w-8xl h-screen mx-auto">
+    <div class="flex flex-col w-7/12 py-3 absolute h-full right-0 justify-center">
+      <div class="w-full h-4/6 rounded-hero bg-hero bg-cover bg-right"></div>
+    </div>
+    <div class="flex flex-col w-6/12 absolute h-full py-3 justify-center">
+      <h1 class="text-primary font-bold tracking-wide font-arial text-h1 py-12 pr-12" style="background: rgba(255, 255, 255, 0.7);backdrop-filter: blur(15px);">Cara mudah buat <br>Aplikasi dan Desain</h1>
+      <p class="text-body font-roboto w-4/6 text-gray-500">Kami hadir untuk membantu kamu membuat aplikasi atau desain sesuai yang kamu inginkan dengan mudah dan cepat.</p>
+      <button class="bg-primary p-6 w-3/12 text-white tracking-wider shadow-primary font-arial font-bold mt-16">Buat Sekarang</button>
+    </div>
+  </section>
+  <script>
+    feather.replace()
+  </script>
+</body>
+</html>
